@@ -44,7 +44,7 @@
     border: none;
 }
 .wrapper .app #output .row{
-    height: 180px;
+    height: auto;
     width: 420px;
     background-color: rgb(236, 242, 243);
     padding: 20px;
