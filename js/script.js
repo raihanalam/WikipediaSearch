@@ -21,7 +21,7 @@ function getData(e){
     }
     else{
         let inputSearch = input.value;
-       let url = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${inputSearch}`;
+       let url = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=50&srsearch=${inputSearch}`;
         fetch(url)
         .then(response => response.json())
         .then(data => {
